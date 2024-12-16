@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.container {
+  margin: 0px auto;
+  margin-top: 80px;
+  width: 90%;
+  max-width: 1000px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e3f2fd;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  font-family: 'Lobster', cursive;
+}
+
+.perg {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: white;
+  border: 1px solid #90caf9;
+  border-radius: 10px;
+}
+
+.perg input, .perg select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #42a5f5;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #29b6f6;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #039be5;
+}
+
+.resp {
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #90caf9;
+  border-radius: 10px;
+}
+
+.resp input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #42a5f5;
+  border-radius: 8px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Estilo Mobile */
+@media (min-width: 330px) and (max-width: 500px) {
+  .container {
+    width: 100%;
+    padding: 15px;
+    margin-top: 60px;
+    padding: 50px 0;
+  }
+
+  .perg {
+    padding: 15px;
+  }
+
+  .perg input, .perg select {
+    padding: 18px;
+    font-size: 14px;
+  }
+
+  button {
+    padding: 20px;
+    font-size: 14px;
+  }
+
+  .resp {
+    padding: 25px;
+  }
+
+  .resp input {
+    padding: 25px;
+    font-size: 14px;
+  }
+}
